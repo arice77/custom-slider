@@ -54,6 +54,7 @@ class _MyAppState extends State<MyApp> {
   }
 }
 
+// ignore: must_be_immutable
 class CustomSlider extends StatefulWidget {
   String topText;
   CustomSlider({required this.topText, super.key});
